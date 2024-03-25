@@ -1,0 +1,24 @@
+{
+  "name": "25-cli-number-guessing",
+  "version": "1.0.4",
+  "description": "This is cli  number guessing game ",
+  "main": "app.js",
+  "type": "module",
+  
+  "publishconfig": {
+    "access": "public"
+  },
+  "bin": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aiman khalid",
+  "license": "MIT",
+  "dependencies": {
+    "25-cli-number-guessing": "^1.0.4",
+    "inquirer": "^9.2.16"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.7"
+  }
+}
